@@ -63,6 +63,10 @@
   cursor: pointer;
 }
 
+.r-buttons>:hover {
+  font-weight: 700;
+}
+
 .r-buttons>:nth-child(1){
   background-color: #eef;
 }
