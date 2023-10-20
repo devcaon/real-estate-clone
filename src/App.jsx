@@ -4,6 +4,8 @@ import Hero from "./components/hero/Hero";
 import Companies from "./components/companies/Companies";
 import Residencies from './components/residencies/Residencies';
 import Value from './components/value/Value';
+import Contact from './components/contact/Contact';
+import GetStarted from './components/getStarted/GetStarted';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Companies />
       <Residencies />
       <Value />
+      <Contact />
+      <GetStarted />
     </div>
   );
 }
