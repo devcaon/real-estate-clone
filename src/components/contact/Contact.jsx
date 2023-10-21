@@ -8,6 +8,7 @@ const Contact = () => {
   return (
     <section className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
+
         {/* left side */}
         <div className="flexColStart c-left">
           <span className="orangeText">Our Contact Us</span>
@@ -95,7 +96,7 @@ const Contact = () => {
         </div>
 
         {/* right side */}
-        <div className="c-right">
+        <div className="flexCenter c-right">
           <div className="image-container">
             <img src="/contact.jpg" alt="contact" />
           </div>
